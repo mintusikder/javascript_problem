@@ -19,3 +19,18 @@ else {
     }
 }
 
+//second option
+var number1 = 600;
+var number2 = 800;
+var number3 = 500;
+
+if(number1 > number2 && number1> number3){
+    console.log("Number 1 boro hobe")
+}
+else if(number2> number3){
+    console.log("Number 2 boro hobe")
+}
+else{
+    console.log("Number 3 boto hobe")
+}
+
