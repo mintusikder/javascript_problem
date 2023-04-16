@@ -68,3 +68,17 @@ if (result > 100) {
 } else {
     console.log('100 er kom paichen??')
 }
+
+// typeof problem-----------------
+var number ='30';
+if (number==30){
+    if(typeof number == 'string'){
+        console.log('all ok')
+    }
+    else{
+        console.log('not ok')
+    }
+}
+else{
+    console.log('Number not equel to 30')
+}
